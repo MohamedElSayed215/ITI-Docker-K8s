@@ -14,7 +14,7 @@ This lab demonstrates the practical application of **Docker Lab #1**, focusing o
 ```bash
 docker run -d --name Mohamed-ITI-46 -p 8080:80 nginx:alpine
 ```
-
+![](screen-shots/bash-shell to container.jpg)
 **Verification**: Successfully accessed the Nginx welcome page via `localhost:8080`.
 
 ---
