@@ -14,8 +14,8 @@ This lab demonstrates the practical application of **Docker Lab #1**, focusing o
 ```bash
 docker run -d --name Mohamed-ITI-46 -p 8080:80 nginx:alpine
 ```
-![bash shell to container](Lab1/screen-shots/bash-shell to container.jpg)
 **Verification**: Successfully accessed the Nginx welcome page via `localhost:8080`.
+![Verify](Lab1/screen-shots/verify.jpg) 
 
 ---
 
@@ -33,6 +33,11 @@ cat /sys/fs/cgroup/memory.max     # 73400320 bytes (70MB)
 cat /sys/fs/cgroup/cpu.max        # 100000 100000 (1 CPU core)
 cat /sys/fs/cgroup/memory.swap.events  # 0 swap activity
 ```
+![Verify-CPUs MAX](Lab1/screen-shots/cpu_max.jpg) 
+
+![Verify-MEMORY MAX](Lab1/screen-shots/max_memory.jpg) 
+
+![Verify-NO-SWAP](Lab1/screen-shots/no-swap.jpg) 
 
 ---
 
