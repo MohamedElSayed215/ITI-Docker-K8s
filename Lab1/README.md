@@ -62,7 +62,7 @@ Inside the container:
 
 * **Process Termination**: Linux Kernel detected memory violation → OOM Killer triggered.  
 * **Exit Code 137**: `docker ps -a` confirmed container exited with Status `(137)`.  
-![]https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab1/screen-shots/all-memory-ate.jpg) 
+![](https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab1/screen-shots/all-memory-ate.jpg) 
 
 **Technical Significance**: Exit Code 137 = process killed by SIGKILL due to exceeding cgroup memory limit.
 
