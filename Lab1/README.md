@@ -33,11 +33,11 @@ cat /sys/fs/cgroup/memory.max     # 73400320 bytes (70MB)
 cat /sys/fs/cgroup/cpu.max        # 100000 100000 (1 CPU core)
 cat /sys/fs/cgroup/memory.swap.events  # 0 swap activity
 ```
-![Verify-CPUs MAX](https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab1/screen-shots/cpu_max.jpg) 
+![](https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab1/screen-shots/cpu_max.jpg) 
 
-![Verify-MEMORY MAX](Lab1/screen-shots/max_memory.jpg) 
+![](https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab1/screen-shots/max_memory%20.jpg) 
 
-![Verify-NO-SWAP](Lab1/screen-shots/no-swap.jpg) 
+![](https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab1/screen-shots/no-swap.jpg) 
 
 ---
 
@@ -62,6 +62,7 @@ Inside the container:
 
 * **Process Termination**: Linux Kernel detected memory violation → OOM Killer triggered.  
 * **Exit Code 137**: `docker ps -a` confirmed container exited with Status `(137)`.  
+![]https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab1/screen-shots/all-memory-ate.jpg) 
 
 **Technical Significance**: Exit Code 137 = process killed by SIGKILL due to exceeding cgroup memory limit.
 
