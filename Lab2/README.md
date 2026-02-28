@@ -30,8 +30,6 @@ WORKDIR /app
 
 ENTRYPOINT [ "python3", "routes.py" ]
 
-
-ENTRYPOINT ["python3", "route.py"]
 ```
 
 
