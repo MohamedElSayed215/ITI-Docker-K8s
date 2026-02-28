@@ -139,7 +139,6 @@ docker run -d \
 ## 4. Verify
 
 ![](https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab2/screenshots/part2.jpg) 
-You should see:
 
 ```html
 <h1>Lab 2 ITI - Mohamed Elsayed</h1>
