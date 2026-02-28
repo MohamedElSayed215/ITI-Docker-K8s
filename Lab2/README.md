@@ -102,8 +102,6 @@ docker network create --driver bridge --subnet 10.0.0.0/8 iti_network
 
 ## 2. Prepare the HTML Page
 
-Create a folder `lab2-site` containing `index.html`:
-
 ```html
 <h1>Lab 2 ITI - Mohamed Elsayed</h1>
 ```
