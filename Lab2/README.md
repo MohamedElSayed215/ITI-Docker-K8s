@@ -42,7 +42,7 @@ ENTRYPOINT ["python3", "route.py"]
 docker build -t iti-flask-lab2 .
 ```
 
-- `-t iti-flask-lab2` sets the image name.
+- `-t flask-app-img` sets the image name.
 
 ---
 
