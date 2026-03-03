@@ -164,7 +164,6 @@ server {
 docker compose up -d
 ```
 
-- Flask App: **http://localhost:8080**
 - Via Nginx: **http://localhost:80**
 
 ---
