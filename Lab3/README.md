@@ -55,6 +55,8 @@ docker build -t my-nginx .
 docker tag my-nginx <YOUR_SERVER_IP>:5000/my-nginx
 docker push <YOUR_SERVER_IP>:5000/my-nginx
 ```
+![](https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab3/Screenshots/private-registry.jpg)
+![](https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab3/Screenshots/volume-private-registry.jpg)
 
 📖 Reference: [Docker Insecure Registry Docs](https://docs.docker.com/registry/insecure/)
 
@@ -89,7 +91,7 @@ networks:
 volumes:
    my-sql-db:
 ```
-
+![](https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab3/Screenshots/docker-compose-outputs.jpg)
 ### Run it
 
 ```bash
@@ -103,7 +105,7 @@ Access WordPress at: **http://localhost:8080**
 ## Part 3 — Bonus: Flask App + Nginx (10 pts)
 
 > Push the Flask app image from Lab 2 to the private registry, run it via Docker Compose, and put Nginx in front of it on port 80.
-
+![](https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab3/Screenshots/flask-app-docker-compose.jpg)
 ### Steps
 
 **1. Tag and push the Flask image to the private registry**
@@ -111,7 +113,7 @@ Access WordPress at: **http://localhost:8080**
 docker tag flask-app <YOUR_SERVER_IP>:5000/flask-app
 docker push <YOUR_SERVER_IP>:5000/flask-app
 ```
-
+![](https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab3/Screenshots/volume-private-registry-flask-app.jpg)
 **2. Docker Compose with Flask + Nginx**
 
 `docker-compose.yml`:
@@ -156,7 +158,7 @@ server {
     }
 }
 ```
-
+![](https://github.com/MohamedElSayed215/ITI-Docker-K8s/blob/main/Lab3/Screenshots/nginx-flask.jpg)
 **3. Run everything**
 ```bash
 docker compose up -d
