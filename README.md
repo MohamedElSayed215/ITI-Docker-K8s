@@ -1,6 +1,6 @@
 # 🐳 ITI — Docker Labs
 
-> Hands-on lab work from the **Docker Track** at the **Information Technology Institute (ITI)**.  
+> Hands-on lab work from the **System AdministrationTrack** at the **Information Technology Institute (ITI)**.  
 > The course covered Docker internals, image building, networking, orchestration, and more across **3 practical labs**.
 
 ---
